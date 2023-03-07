@@ -8,7 +8,7 @@ a = Analysis(
     ['gui.py'],
     pathex=[],
     binaries=[],
-    datas=[('./onnxruntime_providers_shared.dll','onnxruntime\\capi'),('./common.onnx','ddddocr'),('./common_old.onnx','ddddocr')],
+    datas=[('./onnxruntime_providers_shared.dll','onnxruntime\\capi'),('./common_old.onnx','ddddocr')],
     hiddenimports=['PyQt5.sip'],
     hookspath=[],
     hooksconfig={},

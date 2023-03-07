@@ -113,7 +113,6 @@ class Clock(QWidget):
 
     def startUpdate(self, pvd):
         self.pvd = pvd
-        self.update_grade()
         self.timer.start(5000)
 
     def setTime(self):
